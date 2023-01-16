@@ -29,7 +29,7 @@ const Skills = () => {
                         <article className="Skills__details">
                             
                             <h4> React / NextJS </h4>
-                            <small className='text-light'> Intermediate </small>
+                            <small className='text-light'> basic </small>
                         </article>
                     </div>
                 </div>
@@ -44,11 +44,6 @@ const Skills = () => {
                         <article className="Skills__details">
                             
                             <h4> Node.js </h4>
-                            <small className='text-light'> Basics </small>
-                        </article>
-                        <article className="Skills__details">
-                            
-                            <h4> Express.js </h4>
                             <small className='text-light'> Basics </small>
                         </article>
                         <article className="Skills__details">
