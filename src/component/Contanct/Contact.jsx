@@ -4,7 +4,9 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section id='contact'>
+        <>
+        <section id="contact"></section>
+        <section className='contact'>
             <h5 >Get In Touch</h5>
             <h1 >Contact Me</h1>
 
@@ -38,6 +40,7 @@ const Contact = () => {
                 </form>
             </div>
         </section>
+        </>
     );
 };
 

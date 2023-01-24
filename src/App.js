@@ -8,7 +8,7 @@ import Skills from './component/Skills/Skills.jsx'
 import Portfolio from "./component/Portfolio/Portfolio.jsx"
 import Contact from "./component/Contanct/Contact.jsx"
 import Servicess from "./component/Servicess/Servicess.jsx"
-// import Footer from "./component/Footer/Footer.jsx"
+import Footer from "./component/Footer/Footer.jsx"
 
 
 import './App.css'
@@ -29,8 +29,7 @@ function App() {
         <Portfolio />
         <Servicess />
         <Contact />
-        
-        {/* <Footer/> */}
+        <Footer/>
       </main>
     </>
   );

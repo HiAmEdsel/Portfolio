@@ -19,11 +19,11 @@ const Portfolio = () => {
      },
      {
        id: "web",
-       title: "Web App",
+       title: "Activities",
      },
      {
        id: "mobile",
-       title: "Mobile App",
+       title: "Exercises",
      },
      {
        id: "design",
@@ -56,7 +56,9 @@ const Portfolio = () => {
      }
    }, [selected]);
   return (
-    <div className="portfolio" id="portfolio">
+    <>
+    <section id="portfolio"></section>
+    <secion className="portfolio">
       <h1>Portfolio</h1>
       <ul>
         {list.map((item) => (
@@ -76,7 +78,8 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
-    </div>
+    </secion>
+    </>
   );
 };
 
